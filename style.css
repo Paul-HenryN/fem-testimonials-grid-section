@@ -1,0 +1,54 @@
+/* CUSTOM PROPERTIES */
+:root {
+  /* Colors */
+  --clr-pimary-1: hsl(263, 55%, 52%);
+  --clr-pimary-2: hsl(217, 19%, 35%);
+  --clr-pimary-3: hsl(219, 29%, 14%);
+  --clr-pimary-4: hsl(0, 0%, 100%);
+  --clr-neutral-1: hsl(210, 46%, 95%);
+  --clr-neutral-2: hsl(0, 0%, 81%);
+
+  --hsl-primary-1: 263, 55%, 52%;
+  --hsl-primary-2: 217, 19%, 35%;
+  --hsl-primary-3: 219, 29%, 14%;
+  --hsl-primary-4: 0, 0%, 100%;
+  --hsl-neutral-1: 210, 46%, 95%;
+  --hsl-neutral-2: 0, 0%, 81%;
+
+  /*Typography*/
+  --font-family: "Barlow Semi Condensed", sans-serif;
+  --fs-neutral: 0.8125rem;
+  --fs-1: calc(var(--fs-neutral) * 1.5);
+  --fs-2: calc(var(--fs-neutral) * 1.3);
+  --fw-neutral: 500;
+  --fw-primary: 600;
+}
+
+/* UTILS */
+.bg-primary-1 {
+  background-color: var(--clr-pimary-1);
+}
+.bg-primary-2 {
+  background-color: var(--clr-pimary-2);
+}
+.bg-primary-3 {
+  background-color: var(--clr-pimary-3);
+}
+.bg-primary-4 {
+  background-color: var(--clr-pimary-4);
+}
+
+/* RESETS */
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+img,
+picture {
+  display: block;
+  max-width: 100%;
+}
