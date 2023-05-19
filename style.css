@@ -52,3 +52,16 @@ picture {
   display: block;
   max-width: 100%;
 }
+
+/* DEFAULT STYLES */
+body {
+  font-family: var(--font-family);
+  font-size: var(--fs-neutral);
+  font-weight: var(--fw-neutral);
+
+  background-color: var(--clr-neutral-1);
+}
+
+h2 {
+  font-size: var(--fs-1);
+}
